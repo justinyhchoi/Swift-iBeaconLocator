@@ -161,9 +161,17 @@
 				TargetAttributes = {
 					C0352EA21AAF493D00F6A01A = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = HPB4V6H79Z;
+						LastSwiftMigration = 0830;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					C0352EB71AAF493D00F6A01A = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = C0352EA21AAF493D00F6A01A;
 					};
 				};
@@ -338,9 +346,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HPB4V6H79Z;
 				INFOPLIST_FILE = BeaconSpot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hk.edu.ssc.BeaconSpot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -348,9 +359,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HPB4V6H79Z;
 				INFOPLIST_FILE = BeaconSpot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hk.edu.ssc.BeaconSpot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -369,6 +383,7 @@
 				INFOPLIST_FILE = BeaconSpotTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeaconSpot.app/BeaconSpot";
 			};
 			name = Debug;
@@ -384,6 +399,7 @@
 				INFOPLIST_FILE = BeaconSpotTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeaconSpot.app/BeaconSpot";
 			};
 			name = Release;
@@ -407,6 +423,7 @@
 				C0352EC41AAF493D00F6A01A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0352EC51AAF493D00F6A01A /* Build configuration list for PBXNativeTarget "BeaconSpotTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +432,7 @@
 				C0352EC71AAF493D00F6A01A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
