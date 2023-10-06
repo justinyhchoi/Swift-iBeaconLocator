@@ -54,8 +54,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         locationManager = CLLocationManager()
         locationManager.delegate = self
         
-        let uuid = UUID(uuidString: "B9407F30-F5F8-466E-AFF9-25556B57FE6D")
-        beaconRegion = CLBeaconRegion(proximityUUID: uuid!, identifier: "hk.edu.ssc")
+        let uuid = UUID(uuidString: "INSERT UUID")
+        beaconRegion = CLBeaconRegion(proximityUUID: uuid!, identifier: "INSERT IDENTIFIER")
         
         beaconRegion.notifyOnEntry = true
         beaconRegion.notifyOnExit = true
@@ -76,7 +76,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             locationManager.startMonitoring(for: beaconRegion)
             locationManager.startUpdatingLocation()
             
-            btnSwitchSpotting.setTitle("Stop Spotting", for: UIControlState())
+            btnSwitchSpotting.setTitle("Stop Spotting", for: UIControl.State())
             lblBeaconReport.text = "Spotting beacons..."
         }
         else {
@@ -84,7 +84,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             locationManager.stopRangingBeacons(in: beaconRegion)
             locationManager.stopUpdatingLocation()
             
-            btnSwitchSpotting.setTitle("Start Spotting", for: UIControlState())
+            btnSwitchSpotting.setTitle("Start Spotting", for: UIControl.State())
             lblBeaconReport.text = "Not running"
             lblBeaconDetails.isHidden = true
         }
