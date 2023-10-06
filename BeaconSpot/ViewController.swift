@@ -10,6 +10,7 @@
 import UIKit
 import QuartzCore
 import CoreLocation
+import CoreBluetooth
 
 // minor = lap counter +1
 

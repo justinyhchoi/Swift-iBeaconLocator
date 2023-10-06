@@ -18,7 +18,15 @@
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>We need Bluetooth to discover, connect and track iBeacons</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We need Bluetooth and Location to discover, conncet and track iBeacons</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need Bluetooth and Location to discover, conncet and track iBeacons</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>We need Bluetooth to dicsocer, connect and track iBeacons</string>
 </dict>
 </plist>
