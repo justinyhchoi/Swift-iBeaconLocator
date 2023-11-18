@@ -10,8 +10,8 @@ Swift-iBeaconLocator is an iBeacon tracking application designed for track runni
 ## Getting Started
 To get started with Swift-iBeaconLocator, clone the repository to your local machine. Ensure you have the latest version of Xcode installed to handle Swift 5 projects.
 
-```bash
-git clone https://github.com/justinyhchoi/Swift-iBeaconLocator.git
+``bash
+git clone https://github.com/justinyhchoi/Swift-iBeaconLocator.git``
 
 ## Requirements
 iOS device with Bluetooth capability
